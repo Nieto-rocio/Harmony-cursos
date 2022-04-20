@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@500;600 &familia= Montserrat:peso@100 & display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(224, 151, 203),rgb(24, 17, 24),)
+}
+
+html{
+  font-size: 62.5%;  
+}
+
+body{
+    font-size: 1.8rem;
+    font-family: 'Dancing Script', cursiva;
+    color: rgb(19, 18, 18);
+    background-image: url(../img/bg-top-desktop.svg), url();
+    background-color: rgb(238, 211, 238);
+}
+
+h1{
+    font-family: 'Dancing Script', cursiva;
+    font-size: 6rem;
+
+}
+
+.comentarios{
+    min-height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+
+@media screen and (min-width: 720px) {
+    .comentarios{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+.review{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 720px) {
+    .review{
+        flex-direction: row;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+@media screen and (min-width: 720px) {
+    .header .button{
+        display: none;
+    }
+    
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+footer{background-color: rgb(179, 144, 179);
+  margin: 0.30%;
+  padding: 0.30%
+
+
+}
+
