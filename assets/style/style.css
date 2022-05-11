@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2? family= Dancing+Script:wght@500;600 &familia= Montserrat:peso@100 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: 'Dancing Script', cursiva;
+  background-image: url(../img/bg-top-desktop.svg), url();
+  background-color: #e8abe8;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav a {
+  color: #9f5788;
+  text-decoration: none;
+  display: block;
+  padding: 20px 26px;
+  font-family: 'Dancing Script', cursiva;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursiva;
+  font-size: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu {
+  background-color: #d78dd7;
+  height: 75px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: bottom 1px solid #be7fbd;
+}
+/*# sourceMappingURL=style.css.map */

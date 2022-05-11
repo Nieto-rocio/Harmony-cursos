@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@500;600 &familia= Montserrat:peso@100 & display=swap');
 
 * {
@@ -81,52 +83,4 @@ h1{
     align-items: center;
     border: bottom 1px solid rgb(190, 127, 189);
   
-}
-
-
-
-
-@media screen and (min-width: 858px) {
-    .menu {
-        height: 65px;
-    }
-    .btn_menu {
-        display: inline-flex;
-    }
-    .menu_items {
-        position: fixed;
-        width: 100vw;
-        height: calc(100% - 65px);
-        background: violet;
-        top: -100vh;
-        text-align: center;
-        transition: all .4s;
-        flex-direction: column
-    }
-
-}
-.flex-container {
-    border: gray;
-    padding: 20px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    width:80%;
-    height: 600px;
-    margin: 0 auto;
-    
-}
-.card {
-    border: 1px solid rgb(243, 237, 243);
-    background-color: violet;
-    color: black;
-    font-family: 'Dancing Script', cursiva;
-    font-weight: bold;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
-    margin: 5px;
-
 }
