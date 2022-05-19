@@ -1,132 +1,171 @@
-@import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@500;600 &familia= Montserrat:peso@100 & display=swap');
-
-* {
+*{
     margin: 0;
     padding: 0;
-    outline: 0;
     box-sizing: border-box;
-
-    
 }
 
+.fondo{
+    background-color: #d78dd7;
+}
 
+.logo{
+    width: 75px;
+    height: auto;
+}
 
+.navLink{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
 
-html{ 
+.navLink:hover{
+    text-decoration: none;
+    color: rgb(130, 27, 130);
+}
 
-    font-size: 62.5%;   
-  
-  } 
-  
-   
-  body{ 
-  
-    font-size: 1.8rem; 
+.div2{
+    height: 40vh;
+    background-color: #d78dd7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    font-family: 'Dancing Script', cursiva; 
-
-    background-image: url(../img/bg-top-desktop.svg), url(); 
-
-    background-color: rgb(232, 171, 232); 
-
-} 
-  
-  
-   
-  
- nav ul {
-    list-style: none;
+*{
     margin: 0;
     padding: 0;
-
-    
-
+    box-sizing: border-box;
 }
 
-nav ul li {
-    float: left;
-    
-
+.fondo{
+    background-color: #d78dd7;
 }
 
-nav a {
-    color: rgb(159, 87, 136);
+.logo{
+    width: 75px;
+    height: auto;
+}
+
+.navLink{
+    font-size: 2rem;
     text-decoration: none;
-    display: block;
-    padding: 20px 26px;
-    font-family: 'Dancing Script', cursiva;
-    font-size: 20px;
-
+    color: #fff;
 }
 
+.navLink:hover{
+    text-decoration: none;
+    color: rgb(130, 27, 130);
+}
 
-h1{ 
-
-    font-family: 'Dancing Script', cursiva; 
-
-    font-size: 4rem; 
-
-    align-items: center;
-
- 
-
-} 
-
-.menu {
-    background-color: rgb(215, 141, 215);
-    height: 75px;
-    width: 100vw;
+.div2{
+    height: 40vh;
+    background-color: #d78dd7;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border: bottom 1px solid rgb(190, 127, 189);
-  
 }
 
-
-
-
-@media screen and (min-width: 858px) {
-    .menu {
-        height: 65px;
-    }
-    .btn_menu {
-        display: inline-flex;
-    }
-    .menu_items {
-        position: fixed;
-        width: 100vw;
-        height: calc(100% - 65px);
-        background: violet;
-        top: -100vh;
-        text-align: center;
-        transition: all .4s;
-        flex-direction: column
-    }
-
+.footer{
+    height: 30vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
 }
-.flex-container {
-    border: gray;
+
+.footer__enlace{
     padding: 20px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    width:80%;
-    height: 600px;
-    margin: 0 auto;
-    
+    font-size: 2.5rem;
+    color: #000;
 }
-.card {
-    border: 1px solid rgb(243, 237, 243);
-    background-color: violet;
-    color: black;
-    font-family: 'Dancing Script', cursiva;
-    font-weight: bold;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
-    margin: 5px;
 
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    background-color: #d78dd7;
+}
+
+.logo{
+    width: 75px;
+    height: auto;
+}
+
+.navLink{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navLink:hover{
+    text-decoration: none;
+    color: rgb(130, 27, 130);
+}
+
+.div2{
+    height: 40vh;
+    background-color: #d78dd7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    height: 30vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__enlace{
+    padding: 20px;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.card1__text{
+    text-align: center;
+}
+
+.card1__text{
+    text-align: center;
 }
