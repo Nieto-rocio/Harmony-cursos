@@ -85,25 +85,20 @@ h1{
   
 }
 
-.toggle {
-    color: violet;
-    background: none;
-    border: none;
-    font-size: 30px;
-    padding: 0 20px;
-    line-height: 60px;
 
-    display: none;
-}
 
 @media screen and (min-width: 768px) {
-    @media screen and (min-width: 720px) {
-        .navbar-nav{
+
+    .contenedor { display: flex;
+        
+    }
+
+    .navbar-nav{
             flex-direction: row;
             grid-column-start: 1;
             grid-column-end: 3;
         }
-    }
+    
     
     .header{
         display: flex;
@@ -118,11 +113,9 @@ h1{
     } }
     
     @media screen and (min-width: 720px) {
-        .header .button{
-            display: none;
-        }
+
         
-        nav{
+       nav{
             width: 100%;
         }
         nav ul{
